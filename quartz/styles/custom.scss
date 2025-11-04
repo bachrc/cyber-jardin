@@ -11,6 +11,7 @@ thead {
   font-weight: 600;
 }
 
+// Ceci est pour réduire la taille du texte dans l'explorateur de fichiers
 .folder-outer.open {
   ul > li {
     margin-bottom: 8px;
@@ -23,6 +24,7 @@ thead {
   }
 }
 
+// Ceci est pour réduire la taille du texte dans la table des matières
 .toc-content {
   li {
     margin-bottom: 8px;
@@ -32,36 +34,6 @@ thead {
     font-weight: 400;
     font-size: 0.9rem;
   }
-}
-
-.content-meta {
-  margin-top: 0;
-  color: var(--gray);
-
-  &[show-comma="true"] {
-    > span:not(:last-child) {
-      margin-right: 0;
-
-      &::after {
-        content: ", ";
-      }
-    }
-  }
-}
-
-p,
-ul,
-text,
-a,
-tr,
-td,
-li,
-ol,
-ul,
-.katex,
-.math {
-  hyphens: none;
-  text-align: justify;
 }
 
 .page {
