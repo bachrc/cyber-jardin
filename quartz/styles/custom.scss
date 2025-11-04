@@ -11,9 +11,15 @@ thead {
   font-weight: 600;
 }
 
-.folder-container {
-  & div > button > span {
-    font-weight: 400;
+.folder-outer.open {
+  ul > li {
+    margin-bottom: 8px;
+    line-height: 1.2;
+  }
+
+  a {
+    font-weight: 300;
+    font-size: 0.9rem;
   }
 }
 
