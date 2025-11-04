@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "CyberJardin",
+    pageTitle: "bachrc",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: false,
@@ -29,13 +29,13 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#f8f4ff",
+          light: "#f9f4ffff",
           lightgray: "#f0e6ff",
           gray: "#e0d0ff",
           darkgray: "#6040a1ff",
-          dark: "#6337a4ff",
+          dark: "#542d8eff",
           secondary: "#9370db",
-          tertiary: "#c8e6c9",
+          tertiary: "#7fce81ff",
           highlight: "rgba(148, 0, 211, 0.15)",
           textHighlight: "#e6e6fa",
         },

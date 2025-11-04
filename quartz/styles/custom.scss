@@ -23,6 +23,17 @@ thead {
   }
 }
 
+.toc-content {
+  li {
+    margin-bottom: 8px;
+    line-height: 1.2;
+  }
+  a {
+    font-weight: 400;
+    font-size: 0.9rem;
+  }
+}
+
 .content-meta {
   margin-top: 0;
   color: var(--gray);

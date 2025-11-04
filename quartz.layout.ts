@@ -9,6 +9,7 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/bachrc",
+      CV: "https://bachrc.net/cv"
     },
   }),
 }
@@ -37,7 +38,7 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer({title: "Pages"}),
+    Component.Explorer({title: "Pages", useSavedState: false}),
   ],
   right: [
     //Component.Graph(),
