@@ -1,0 +1,1 @@
+Obsidian est un éditeur gratuit et non open-source de fichier Markdown, 
