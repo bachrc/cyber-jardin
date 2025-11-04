@@ -3,6 +3,6 @@ title: À propos
 permalink: a-propos
 ---
 
-En cours de rédaction
+Je suis Yohann, un développeur axé autour des bonnes pratiques de code.
 
 ![[Statut actuel]]
