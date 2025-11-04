@@ -2,5 +2,4 @@
 title: Cyber Jardin
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+Bonjour tout le monde, et bah... bienvenue ! Soyez pas timide allons !!!
