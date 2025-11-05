@@ -1,0 +1,12 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.inFolder("content/Articles")
+    order:
+      - file.name
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: DESC

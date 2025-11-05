@@ -21,7 +21,7 @@ wget <votre_url> -O ~/.local/bin
 # Démarrage Rapide
 
 ## Configuration initiale
-Avant toute chose, nous allons utiliser [le guide Quick Start](https://garagehq.deuxfleurs.fr/documentation/quick-start/) de [[Garage]] afin de configurer rapidement notre serveur.
+Avant toute chose, nous allons utiliser [le guide Quick Start](https://garagehq.deuxfleurs.fr/documentation/quick-start/) de Garage afin de configurer rapidement notre serveur.
 
 Rendez-vous dans le dossier que vous souhaitez, dans notre exemple ce sera `/volume1/garage`, et créez le dossier `data`, où garage écrira ses données
 
@@ -71,7 +71,7 @@ garage -c /volume1/garage/garage.toml server
 ```
 
 > [!tip] Petite astuce
-> Lancer cette commande lancera l'application dans le shell actif. Si vous n'utilisez pas de multiplexeur comme [[Zellij]] ou tmux, votre outil s'arrêtera en même temps que votre shell !
+> Lancer cette commande lancera l'application dans le shell actif. Si vous n'utilisez pas de multiplexeur comme Zellij ou tmux, votre outil s'arrêtera en même temps que votre shell !
 
 ## Consulter l'état de Garage
 Vous pouvez consulter l'état de Garage via la commande suivante :
@@ -146,7 +146,7 @@ Vous avez désormais un bucket prêt à l'emploi, ainsi qu'un couple de clés po
 
 
 # Fichier justfile
-L'extrait suivant est un fichier `justfile`, pour utilisation avec [[Just]]
+L'extrait suivant est un fichier `justfile`, pour utilisation avec Just
 
 ```justfile title="justfile"
 garage-base := "garage -c ./garage.toml"
