@@ -2,4 +2,46 @@
 description: Je vous explique comment j'ai procédé pour créer cet endroit, mon endroit, sur la toile.
 draft: "true"
 ---
-Ceci est un test.
+# Plan
+
+- Faire un tl;dr
+- Pourquoi un jardin numérique
+	- Explication du concept de jardin numérique
+		- Un espace sur internet, un wiki
+	- Un partage de connaissances pour qui veut dans un lieu publiquement personnel
+	- Pas de technologie particulière, il faut juste que l'information soit accessible
+	- Pour sa pérennité, il faut que l'approche soit pensée
+		- Facile pour sa maintenance
+			- Les technologies sont éphémères, le contenu doit en être indépendant
+			- Le jardin doit rester personnalisable. Le moteur doit être un outil et non une cage
+			- Ne pas se prendre la tête en technique : qu'il s'agisse d'infrastructure ou de programmation
+		- Utile pour le•a créateur•ice
+			- Ecrire ça prend du temps, il faut qu'il y ait un avantage
+			- Ecrire un tutoriel sur un sujet que l'on découvre est un excellent moyen d'apprendre
+			- Que ce soit agréable de l'écrire, ne se concentrer que sur l'écriture
+		- Informations facilement accessibles
+			- Au niveau accessibilité évidemment
+			- Recherche de sujets
+			- Découvrabilité des ressources
+			- Quelque soit le langage
+	- Ces problématiques sont complexes, et il n'y a pas de solution magique.
+	- La solution à laquelle j'en suis venu m'a semblé être le meilleur compromis
+- Ma solution
+	- Résumé rapide global
+		- Mes articles sont des fichiers Markdown
+		- Mon éditeur est Obsidian
+		- Mises à jour possibles depuis mon ordinateur ou depuis mon téléphone
+		- Quartz est le logiciel qui va se baser sur ce contenu pour générer un site internet statique
+		- Le stockage/synchronisation de ce site se fait avec Git, ici sur Github
+		- Le jardin n'étant composé que de pages statiques, il est déployé automatiquement et hébergé sur Github Pages
+	- Reprenons les problématiques énoncées précédemment
+		- Maintenance
+			- "Technologies éphémères, contenu indépendant"
+				- Le coeur du blog sont des fichiers Markdown. Telle une [[Architecture hexagonale]], mon contenu reste indépendant du moteur du jardin
+			- "Le moteur du jardin doit être un outil et non une cage"
+				- Quartz, contrairement aux autres générateurs de sites statiques, ne se présente pas comme un exécutable. Il s'agit d'une application "vide", d'un template, où le contenu s'insère.
+				- Tout le code source utilisé afin de générer le jardin se trouve dans le même dépôt. Dans le cas où quelque chose n'est pas exactement comme souhaité, il est facile de modifier le source en question, sans passer par des processus de MR potentiellement longs et fastidieux
+				- Il reste toujours possible de récupérer les mises à jour de la communauté sur le dépôt Git original
+			- "Ne pas s'attarder sur l'aspect technique"
+				- Utiliser un "template" reste quelque chose de niche où il faut 
+				- J'ai la chance d'être à l'aise, et autonome avec le développement de logoci
