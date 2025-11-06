@@ -4,16 +4,10 @@ title: Cyber Jardin
 ## Bonjour
 Bonjour, et bienvenue dans mon jardin numérique.
 
-![[A propos de moi]]
+Je compte y consigner ma veille, mes recherches, afin que ce soit potentiellement utile à autrui. Et si cette personne recherche quelque chose d'extrêmement spécifique à 3 heures du matin qui se trouve ici, elle sera bien contente de tomber ici. Bienvenue.
 
-Je compte y consigner ma veille, mes recherches, afin que ce soit potentiellement utile à autrui. 
-
-Un autrui qui recherche quelque chose d'extrêmement spécifique à 3 heures du matin sera forcément heureux de trouver son compte. D'où cet endroit.
-
-![[Stack technique du blog]]
-
-Vous pouvez me contacter selon votre bon vouloir à l'adresse [contactb@bachrc.net](mailto:contactblog@bachrc.net)
+Vous pouvez me contacter selon votre bon vouloir à l'adresse [contact@bachrc.net](mailto:contact@bachrc.net)
 
 ## Quelques points d'entrée
-- [[En ce moment]]
+- [[A propos de moi]]
 - [[content/Articles/index|Mes articles de blog]]

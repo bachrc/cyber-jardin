@@ -27,21 +27,25 @@ draft: "true"
 	- Ces problématiques sont complexes, et il n'y a pas de solution magique.
 	- La solution à laquelle j'en suis venu m'a semblé être le meilleur compromis
 - Ma solution
-	- Résumé rapide global
-		- Mes articles sont des fichiers Markdown
-		- Mon éditeur est Obsidian
-		- Mises à jour possibles depuis mon ordinateur ou depuis mon téléphone
-		- Quartz est le logiciel qui va se baser sur ce contenu pour générer un site internet statique
-		- Le stockage/synchronisation de ce site se fait avec Git, ici sur Github
-		- Le jardin n'étant composé que de pages statiques, il est déployé automatiquement et hébergé sur Github Pages
-	- Reprenons les problématiques énoncées précédemment
-		- Maintenance
-			- "Technologies éphémères, contenu indépendant"
-				- Le coeur du blog sont des fichiers Markdown. Telle une [[Architecture hexagonale]], mon contenu reste indépendant du moteur du jardin
-			- "Le moteur du jardin doit être un outil et non une cage"
-				- Quartz, contrairement aux autres générateurs de sites statiques, ne se présente pas comme un exécutable. Il s'agit d'une application "vide", d'un template, où le contenu s'insère.
-				- Tout le code source utilisé afin de générer le jardin se trouve dans le même dépôt. Dans le cas où quelque chose n'est pas exactement comme souhaité, il est facile de modifier le source en question, sans passer par des processus de MR potentiellement longs et fastidieux
-				- Il reste toujours possible de récupérer les mises à jour de la communauté sur le dépôt Git original
-			- "Ne pas s'attarder sur l'aspect technique"
-				- Utiliser un "template" reste quelque chose de niche où il faut 
-				- J'ai la chance d'être à l'aise, et autonome avec le développement de logoci
+- Résumé rapide global
+	- Mes articles sont des fichiers Markdown
+	- Mon éditeur est Obsidian
+	- Mises à jour possibles depuis mon ordinateur ou depuis mon téléphone
+	- Quartz est le logiciel qui va se baser sur ce contenu pour générer un site internet statique
+	- Le stockage/synchronisation de ce site se fait avec Git, ici sur Github
+	- Le jardin n'étant composé que de pages statiques, il est déployé automatiquement et hébergé sur Github Pages
+- Reprenons les problématiques énoncées précédemment
+	- Maintenance
+		- "Technologies éphémères, contenu indépendant"
+			- Le coeur du blog sont des fichiers Markdown. Telle une [[Architecture hexagonale]], mon contenu reste indépendant du moteur du jardin
+		- "Le moteur du jardin doit être un outil et non une cage"
+			- Quartz, contrairement aux autres générateurs de sites statiques, ne se présente pas comme un exécutable. Il s'agit d'une application "vide", d'un template, où le contenu s'insère.
+			- Tout le code source utilisé afin de générer le jardin se trouve dans le même dépôt. Dans le cas où quelque chose n'est pas exactement comme souhaité, il est facile de modifier le source en question, sans passer par des processus de MR potentiellement longs et fastidieux
+			- Il reste toujours possible de récupérer les mises à jour de la communauté sur le dépôt Git original
+		- "Ne pas s'attarder sur l'aspect technique"
+			- Utiliser un "template" reste quelque chose de niche où il faut 
+			- J'ai la chance d'être à l'aise, et autonome avec le développement de logiciels, mais une personne lambda ne peut faire cette approche. 
+			- Des alternatives comme bearblog.dev ou la solution "Obsidian Publish" ne nécessitent aucune connaissances techniques et permettent un résultat similaire
+	- Utile
+		- Écrire ce que l'on apprend permet de sérialiser à l'écrit ce que l'on tente de sérialiser à son cerveau. Certains raccourcis semblant normaux à la réflexion ne le sont pas tant que ça, et se poser ces questions approfondissent la réflexion
+		- J'utilise Obsidian, qui permet de mêler la facilité d'écriture à la
